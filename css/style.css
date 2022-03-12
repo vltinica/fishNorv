@@ -1,64 +1,87 @@
-  *,
-  *::after,
-  *::before{
-    box-sizing: border-box;
-  }
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
 
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
+a {
+  color: inherit;
+  text-decoration: none;
+}
 
-  body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 120%;
-    /* font-family: 'Roboto Slab', serif; */
-  }
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* font-family: 'Roboto Slab', serif; */
+}
 
-  .container {
-    max-width: 1220px;
-    margin: 5px auto;
-    padding: 0 10px;
-    background-color: rgb(231, 228, 228);
-  }
+.container {
+  max-width: 1220px;
+  margin: 5px auto;
+  padding: 0 10px;
+}
 
-  .header__top {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 27px;
-  }
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 27px;
+}
 
-  .logo {
-    margin-left: 16px;
-  }
+.logo {
+  margin-left: 16px;
+}
 
-  .phone {
-    margin-right: 43px;
-    margin-top: 11px;
-  }
+.phone {
+  margin-right: 43px;
+  margin-top: 11px;
+}
 
-  .menu {
-    margin-top: 20px;
-  }
+.menu {
+  margin-top: 20px;
+}
 
-  .menu__list {
-    display: flex;
-  }
+.menu__list {
+  display: flex;
+}
 
-  .menu__item + .menu__item {
-    margin-left: 30px;
-  }
+.menu__item + .menu__item {
+  margin-left: 30px;
+}
 
-  .menu__link {
-    text-transform: uppercase;
-    font-weight: 500;
-    color:#001E64;
-    font-size: 18px;
-    line-height: 120%;
-  }
+.menu__link {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #001e64;
+  font-size: 18px;
+  line-height: 120%;
+}
 
-  .menu__link:hover {
-    border-bottom: 1px solid #001E64;
-  }
+.menu__link:hover {
+  border-bottom: 1px solid #001e64;
+}
+
+.header__content {
+  background-image: url(../images/header-bg.png);
+  /* width: 1920px;
+    height: 1027px;
+    margin: 0 auto; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-family: Roboto Slab;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #001e64;
+
+  width: 590px;
+  text-align: center;
+}
