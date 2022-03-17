@@ -10,11 +10,11 @@ $(function () {
   });
   // second slides
   $(".product__name").slick({
-    slidesToShow: 6,
+    slidesToShow: 5,
     slidesToScroll: 1,
     focusOnSelect: true,
     asNavFor: ".product__content",
-
+    centerMode: true,
     // make slide vertical
     vertical: true,
     prevArrow:
